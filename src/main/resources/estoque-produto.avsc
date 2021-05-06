@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "name": "Produto",
+    "namespace": "br.natividade.estoque.schema",
+    "fields": [
+    {
+        "name": "descricao",
+        "type": "string"
+    },
+    {
+        "name": "quantidadeEstoque",
+        "type": "int"
+    },
+    {
+        "name": "valorUnitario",
+        "type": "double"
+    }
+   ]
+}
